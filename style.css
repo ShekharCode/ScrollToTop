@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  color: skyblue;
+}
+
+#btn {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  z-index: 99;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: rgb(115, 195, 110);
+}
